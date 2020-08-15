@@ -1,1 +1,1 @@
-# ES6-supported-Carousel-HTML-5-
+# ES6-supported-Carousel-HTML-5
