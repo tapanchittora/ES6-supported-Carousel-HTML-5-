@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Carousel HTML 5 Assignment</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive_style.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+ <header class="mainHeader">
+   <a href="#" class="logoAnchor">
+    <!-- <img  class="logo" src="#" alt="Logo"> -->
+	</a>
+   <span class="courseTitle">HTML5 Assignment</span>
+   <span class="courseNavigation">
+    <i class="fa fa-angle-left" aria-hidden="true"></i>
+    <i class="fa fa-bars" aria-hidden="true"></i>
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </span>
+ </header>
+ <section class="wrapper">
+    <h1 class="mainTitle">Beyond 'click-next-to-continue'</h1>
+    <section class="contentWrapper">
+        <header>
+          <h2 class="darkHeader">How we create unforgettable experience</h2>
+          <div class="sliderControls">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <div class="dotsPanel">
+            </div>
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </div>
+        </header>
+      <div class="sliderContainer">
+          <div class="sliderPanel show">
+            <i class="fa fa-html5" aria-hidden="true"></i>
+            <article class="sliderContent">
+              <h3 class="sliderHeading">Mobile learning and apps</h3>
+              <p>Learners expect experiences they can touch and tools
+                which are accessible from anywhere. We use HTML5 to
+                build responsive content which learners can navigate
+                like the apps and websites they love. One experience on
+                any device.</p>
+            </article>
+          </div>
+          <div class="sliderPanel">
+            <i class="fa fa-video-camera" aria-hidden="true"></i>
+            <article class="sliderContent">
+              <h3 class="sliderHeading">Animations and video</h3>
+              <p>An eye&#8208;popping animation is a great way to open a
+                course. It’s also a standalone asset to help you promote
+                it. You can have a message from your CEO to open the
+                training, video testimonials from some of your
+                employees, interviews with your subject matter experts
+                or dramatised scenarios using actors. You can film in a
+                studio, on location or in virtual worlds (using green or
+                blue screen).</p>
+            </article>
+          </div>
+          <div class="sliderPanel">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <article class="sliderContent">
+              <h3 class="sliderHeading">Interaction and scenarios</h3>
+              <p>What makes great classroom training great? Often it’s
+                the instructor involving the audience, encouraging
+                interaction &ndash; and making eye contact. We believe online
+                training is no different. Our elearning solutions are fully
+                interactive, using activities, quizzes and highly
+                developed scenarios.</p>
+            </article>
+          </div>
+          <div class="sliderPanel">
+            <i class="fa fa-gamepad" aria-hidden="true"></i>
+            <article class="sliderContent">
+              <h3 class="sliderHeading">Gamification</h3>
+              <p>Game mechanics in learning motivate achievement by
+                satisfying psychological needs. We build in performance
+                indicators that measure how well learners doing as they
+                answer questions, complete tasks or make decisions.
+                This flags up weaker areas early on and spurs them on
+                when they’re on a roll.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+  </section>
+  <script src="./js/script.js"></script>
+  <script>saffornCarousel(".sliderPanel",".dotSlider");</script>
+</body>
+</html>
